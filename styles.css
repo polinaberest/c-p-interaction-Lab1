@@ -11,3 +11,11 @@
     background-color:rgba(128, 128, 128, 0.5);
    border-radius: 10px;
 }
+.lead {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.footer {
+    min-height: 40px;
+   margin-top: 40px;
+}

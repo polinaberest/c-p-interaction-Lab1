@@ -12,20 +12,20 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Наша назва?</a>
+        <a class="navbar-brand" href="#">Зона комфорту</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Про нас<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#about-us">Про нас<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#room-block">Варіанти номерів</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Зв'язатися з нами</a>
+              <a class="nav-link" href="#contacts">Зв'язатися з нами</a>
             </li>
           </ul>
         </div>
@@ -37,10 +37,36 @@
               <li class="breadcrumb-item active" aria-current="page">Головна</li>
             </ol>
           </nav>
-    
-          <button type="button" class="btn btn-warning btn-lg btn-block" style="padding: 10px;">Перейти до вибору номеру</button>
-    
+
+
+          <div class="jumbotron" id="about-us">
+            <h1 class="display-4"><b>Зона комфорту - модерний готель у серці Харкова</b></h1>
+            <br>
+            <p class="lead">Ми пропонуємо: 
+                <ul>
+                    <li>комфортне розміщення у зручні для Вас дати</li>
+                    <li>номери стандарт та люкс</li>
+                    <li>номери для роботи і для відпочинку</li>
+                    <li>місце для паркування</li>
+                    <li>можливість проживання з дітьми</li>
+                    <li>можливість замовлення харчування у ресторані готелю</li>
+                    <li>готель для тварин на випадок, якщо Ви подорожуєте з улюбленцем</li>
+                    <li>цілодобовий доступ до бомбосховища</li>
+                </ul>
+            </p>
+            <hr class="my-4">
+            <p style="margin-left:40px; font-size:1.7em;"><b>Хочеш до Зони комфорту? Бронюй зараз! </b></p>
+            <p class="lead">
+                <button type="button" class="btn btn-warning btn-lg btn-block" style="padding: 10px;">Забронювати номер</button>
+            </p>
+          </div>
+          
+          
+        <div class="map">
+        </div>
+
           <div id = "room-block" style="margin: 1rem;">
+            <h2 class="text-center">Перегляньте інтер'єр номерів готелю 'Зона комфорту':</h2>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -55,43 +81,46 @@
                   <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
                 </ol>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\standard - 2 - common.png" alt="First slide">
+                    <div class="carousel-caption">
+                        <h5>Стандарт на двох</h5>
+                        <p>Номер класу "стандарт" на двох осіб з двоспальним ліжком</p>
+                      </div>
+                </div>
+
+                
+                  <div class="carousel-item">
                     <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\2-sep-beds.jpg" alt="First slide">
                     <div class="carousel-caption">
                         <h5>Стандарт на двох - окремі ліжка</h5>
                         <p>Номер класу "стандарт" на двох осіб з двома окремими ліжками</p>
                       </div>
                 </div>
+                
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\2-sep-beds.jpg" alt="First slide">
-                    <div class="carousel-caption">
-                        <h5>Стандарт на двох</h5>
-                        <p>Номер класу "стандарт" на двох осіб з двоспальним ліжком</p>
-                      </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\2-sep-beds.jpg" alt="First slide">
+                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\standard - 1.jpg" alt="First slide">
                     <div class="carousel-caption">
                         <h5>Стандарт на одного</h5>
                         <p>Номер класу "стандарт" на одну особу</p>
                       </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\2-sep-beds.jpg" alt="First slide">
+                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\standard - 3 - sep.jpg" alt="First slide">
                     <div class="carousel-caption">
                         <h5>Стандарт на трьох - окремі ліжка</h5>
                         <p>Номер класу "стандарт" на трьох осіб з трьома окремими ліжками</p>
                       </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\2-sep-beds.jpg" alt="First slide">
+                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\standard - 3 - common.jpg" alt="First slide">
                     <div class="carousel-caption">
                         <h5>Стандарт на трьох</h5>
                         <p>Номер класу "стандарт" на трьох осіб з двоспальним та односпальним ліжками</p>
                       </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\2-sep-beds.jpg" alt="First slide">
+                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\lux - 2 - sep.jpg" alt="First slide">
                     <div class="carousel-caption">
                         <h5>Люкс на двох - окремі ліжка</h5>
                         <p>Номер класу "люкс" на двох осіб з двома окремими ліжками</p>
@@ -105,21 +134,21 @@
                       </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\2-sep-beds.jpg" alt="First slide">
+                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\lux - 1.jpg" alt="First slide">
                     <div class="carousel-caption">
                         <h5>Люкс на одного</h5>
                         <p>Номер класу "люкс" на одну особу</p>
                       </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\2-sep-beds.jpg" alt="First slide">
+                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\lux - 3 - common.jpg" alt="First slide">
                     <div class="carousel-caption">
                         <h5>Люкс на трьох</h5>
                         <p>Номер класу "люкс" на трьох осіб з двоспальним та односпальним ліжками</p>
                       </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\2-sep-beds.jpg" alt="First slide">
+                    <img class="d-block w-100" src="C:\Users\user\Desktop\Uni\ЛМВз\lab1\imgs\lux - 3 - sep.jpg" alt="First slide">
                     <div class="carousel-caption">
                         <h5>Люкс на трьох - окремі ліжка</h5>
                         <p>Номер класу "люкс" на трьох осіб з трьома окремими ліжками</p>
@@ -135,6 +164,9 @@
                 </a>
               </div>
           </div>
+    </div>
+
+    <div class="footer bg-warning" id="contacts">
     </div>
     
 
