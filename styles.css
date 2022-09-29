@@ -68,3 +68,8 @@ ul.nav-list, ol {
   visibility: hidden;
   transition: .22s ease;
 }
+
+#btn:hover, #btn:active, #btn:visited{
+  text-decoration: none;
+
+}
