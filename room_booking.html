@@ -37,15 +37,26 @@
 
     <div class = "content" style="margin: 1rem;">
        
-         
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Головна</a></li>
+                <li class="breadcrumb-item"><a href="main.html">Вибір дати та кількості гостей</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Вибір номеру</li>
+            </ol>
+          </nav>
+
           <div class="jumbotron" id="about-us">
             <h2 class="display-5"><b>Бронювання номеру - крок 2 з 4</b></h2>
             <div class="progress">
                 <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
             </div><br>
-            <h3>Дати проживання: з 1 жовтня 2022 р. по 3 жовтня 2022 р. (2 доби)</h3>
+            <h3>Дати проживання: з 1 жовтня 2022 р. по 3 жовтня 2022 р. (2 доби) - один номер на двох осіб</h3><br>
+            <h3>   + номер для тварини </h3><br>
+            <hr class="my-4">
+            <br>
+
             <div id = "room-block" style="margin: 1rem;">
-                <h2 class="text-center">Доступні номери на двох осіб:</h2>
+                <h2 class="text-center">Перегляньте доступні номери на обрані дати:</h2>
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -59,6 +70,7 @@
                         <div class="carousel-caption">
                             <h5>Стандарт на двох</h5>
                             <p>Номер класу "стандарт" на двох осіб з двоспальним ліжком</p>
+                            <p style="font-size: 1.3em;">1900 UAH за дві доби</p>
                           </div>
                     </div>
     
@@ -68,6 +80,7 @@
                         <div class="carousel-caption">
                             <h5>Стандарт на двох - окремі ліжка</h5>
                             <p>Номер класу "стандарт" на двох осіб з двома окремими ліжками</p>
+                            <p style="font-size: 1.3em;">2000 UAH за дві доби</p>
                           </div>
                     </div>
 
@@ -76,6 +89,7 @@
                         <div class="carousel-caption">
                             <h5>Люкс на двох - окремі ліжка</h5>
                             <p>Номер класу "люкс" на двох осіб з двома окремими ліжками</p>
+                            <p style="font-size: 1.3em;">3000 UAH за дві доби</p>
                           </div>
                       </div>
                       <div class="carousel-item">
@@ -83,9 +97,9 @@
                         <div class="carousel-caption">
                             <h5>Люкс на двох</h5>
                             <p>Номер класу "люкс" на двох осіб з двоспальним ліжком</p>
+                            <p style="font-size: 1.3em;">2900 UAH за дві доби</p>
                           </div>
                       </div>
-
 
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -98,6 +112,16 @@
                   </div>
               </div>
         </div>
+        <br>
+        <div class="form-group">
+            <label for="inputState" class="lead">Обери вид номеру:</label>
+            <select id="inputState" class="form-control">
+              <option selected>Стандарт на двох - двоспальне ліжко</option>
+              <option>Люкс на двох - двоспальне ліжко</option>
+              <option>Стандарт на двох - окремі ліжка</option>
+              <option>Люкс на двох - окремі ліжка</option>
+            </select>
+          </div>
             <hr class="my-4">
             <br>
             <p class="lead">
