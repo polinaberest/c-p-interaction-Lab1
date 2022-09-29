@@ -15,6 +15,23 @@
     font-size: 1.8em;
     font-weight: bold;
 }
+
+.form{
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+}
+
 .footer {
     min-height: 40px;
    margin-top: 40px;

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="ru">
 <head>
     <meta charset="utf-8">
@@ -36,7 +36,13 @@
       </nav>
 
     <div class = "content" style="margin: 1rem;">
-       
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Головна</a></li>
+        
+            <li class="breadcrumb-item active" aria-current="page">Вибір дати та кількості гостей</li>
+        </ol>
+      </nav>
          
           <div class="jumbotron" id="about-us">
             <h2 class="display-5"><b>Бронювання номеру - крок 1 з 4</b></h2>
@@ -47,17 +53,40 @@
 
             <hr class="my-4">
             <br>
-            <p class="lead">
-                <label for="start">Бажана дата заїзду:</label>
-                <input type="date" id="start" name="trip-start"
+            <div class="form">
+            <p >
+                <label for="start">Дата заїзду:</label>
+                <input type="date" id="start" name="trip-start" 
                 value="2022-09-30"
                 min="2022-09-30" max="2024-12-31">
-
-                <label for="start">Бажана дата виїзду:</label>
-                <input type="date" id="start" name="trip-start"
+              </p>
+              <p>
+                <label for="end">Дата виїзду:</label>
+                <input type="date" id="end" name="trip-end"
                 value="2022-01-10"
                 min="2022-01-30" max="2024-12-31">
             </p>
+            <p>
+              <label for="peoples" width="10">Кількість людей:&ensp;&nbsp;</label>
+              <input type="number" id="peoples" max="40" min="1" value="1" >
+            </p>
+            <p>
+              <label for="rooms">Кількість номерів:</label>
+              <input type="number" id="rooms" max="40" min="1" value="1" >
+            </p>
+            <p>
+              <label for="rooms">З дітьми:&ensp;</label>
+              <input type="checkbox">
+            </p>
+            <p>
+              <label for="rooms">Потрібен номер для тварин:&ensp;</label>
+              <input type="checkbox">
+              <br>
+              <small class="text-muted">Обираючи цей пункт Ви погоджуєтесь, що вашу тварину буде розміщено у готелі для тварин у нашому закладі на час Вашого перебування у готелі "Зона комфорту". Оплата подобова - 500 грн на добу. Вартість догляду та годування включено </small>
+            </p>
+            <hr class="my-4">
+            <br>
+          </div>
             
             <p class="lead">
                 <button type="button" class="btn btn-warning btn-lg btn-block " style="padding: 10px; margin-left: 25%; width: 50%;">Далі ></button>
