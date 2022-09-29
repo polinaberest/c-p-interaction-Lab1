@@ -15,6 +15,7 @@ function initDate()
     document.getElementById('start').min = now.yyyymmdd();
     now.setDate(now.getDate()+1);
     document.getElementById('end').min = now.yyyymmdd();
+    document.getElementById('end').value = now.yyyymmdd();
 }
 
 function validateDate(){
